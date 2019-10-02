@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLivePoll.Client", "FacebookLivePoll.Client\FacebookLivePoll.Client.csproj", "{3E63F1A1-218D-4732-A4CA-D67E0BDB2AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLivePoll.TestConsole", "FacebookLivePoll.TestConsole\FacebookLivePoll.TestConsole.csproj", "{781182AA-65E1-4028-94B8-16F8B78CE8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLivePoll.Web", "FacebookLivePoll.Web\FacebookLivePoll.Web.csproj", "{3948DC8B-D250-43F4-B58D-99A9424820A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLivePoll.Common", "FacebookLivePoll.Common\FacebookLivePoll.Common.csproj", "{BBCAB2EC-03FA-47B3-BE00-CA8E5CD17FC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLivePoll.Relay", "FacebookLivePoll.Relay\FacebookLivePoll.Relay.csproj", "{F8588AB4-EE5A-42F7-B7D6-39DAAED8FDFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E63F1A1-218D-4732-A4CA-D67E0BDB2AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E63F1A1-218D-4732-A4CA-D67E0BDB2AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E63F1A1-218D-4732-A4CA-D67E0BDB2AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E63F1A1-218D-4732-A4CA-D67E0BDB2AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781182AA-65E1-4028-94B8-16F8B78CE8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781182AA-65E1-4028-94B8-16F8B78CE8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781182AA-65E1-4028-94B8-16F8B78CE8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781182AA-65E1-4028-94B8-16F8B78CE8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3948DC8B-D250-43F4-B58D-99A9424820A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3948DC8B-D250-43F4-B58D-99A9424820A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3948DC8B-D250-43F4-B58D-99A9424820A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3948DC8B-D250-43F4-B58D-99A9424820A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCAB2EC-03FA-47B3-BE00-CA8E5CD17FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCAB2EC-03FA-47B3-BE00-CA8E5CD17FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCAB2EC-03FA-47B3-BE00-CA8E5CD17FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCAB2EC-03FA-47B3-BE00-CA8E5CD17FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8588AB4-EE5A-42F7-B7D6-39DAAED8FDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8588AB4-EE5A-42F7-B7D6-39DAAED8FDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8588AB4-EE5A-42F7-B7D6-39DAAED8FDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8588AB4-EE5A-42F7-B7D6-39DAAED8FDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

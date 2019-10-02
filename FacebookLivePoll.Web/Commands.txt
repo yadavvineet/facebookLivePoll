@@ -1,0 +1,21 @@
+﻿SetSqlGenerator("MySql.Data.MySqlClient",new MySqlMigrationSqlGenerator());
+
+
+To enable migrations for 'FacebookLivePoll.Web.DAL.DbContexts.DataDbContext', 
+	use Enable-Migrations -ContextTypeName FacebookLivePoll.Web.DAL.DbContexts.DataDbContext.
+To enable migrations for 'FacebookLivePoll.Web.DAL.DbContexts.IdentityDbContext', 
+	use Enable-Migrations -ContextTypeName FacebookLivePoll.Web.DAL.DbContexts.IdentityDbContext.
+
+Enable-migrations –ContextTypeName:FacebookLivePoll.Web.DAL.DbContexts.IdentityDbContext –MigrationsDirectory:Migrations\IdentityMConfiguration
+Enable-migrations –ContextTypeName:FacebookLivePoll.Web.DAL.DbContexts.DataDbContext –MigrationsDirectory:Migrations\DbMConfiguration
+
+
+Add-migration –configuration FacebookLivePoll.Web.Migrations.DbMConfiguration.Configuration "dbi" 
+Add-migration –configuration FacebookLivePoll.Web.Migrations.IdentityMConfiguration.Configuration "ini" 
+
+
+update-database –configuration FacebookLivePoll.Web.Migrations.IdentityMConfiguration.Configuration  -verbose
+update-database –configuration FacebookLivePoll.Web.Migrations.DbMConfiguration.Configuration -verbose
+
+
+
